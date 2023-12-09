@@ -1,3 +1,11 @@
+-- SHORT DESCRIPTION --
+This repo is a API additional payment option for ecomerce website on TTECH company. 
+Using Mysql to storage and manage data.
+
+
+
+
+-- HOW TO USE --
 1. Cài đặt nodejs lên máy cần chạy. Download nodejs tại: https://nodejs.org/en/
 2. Vào command (cmd) và chuyển tới thư mục code demo
 3. Cài đặt module cần thiết bằng lệnh: npm install
@@ -6,11 +14,12 @@
 6. Mở trình duyệt và truy cập vào địa chỉ: http://localhost:8888/order/create_payment_url để bắt đầu chạy demo
 7. Thông tin hướng dẫn kết nối tham khảo thêm tại địa chỉ: https://sandbox.vnpayment.vn/apis/
 
-DEMO CARD
+-- DEMO CARD --
 Ngân hàng: NCB
 Số thẻ: 9704198526191432198
 Tên chủ thẻ: NGUYEN VAN A
 Ngày phát hành: 07/15
 Mật khẩu OTP: 123456
 
-CHROME TEST: chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+-- CHROME TEST DISABLE CORS -- 
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
